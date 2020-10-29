@@ -13,5 +13,14 @@
     </head>
     <body>
         <h1>Congrats, Welcome to Spring Framework!!</h1>
+        
+        <ul>
+            <li>
+                <a href="${pageContext.request.contextPath}/info">Info</a>
+            </li>
+            <li>
+                <a href="${pageContext.request.contextPath}/customers/list">Customers</a>
+            </li>
+        </ul>
     </body>
 </html>
